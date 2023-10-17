@@ -10,11 +10,11 @@ import Banner1 from "../../img/hero-bg-1.jpg";
 export default function Home() {
   return (
     <>
-      <main className="h-[90vh] w-full bg-cover flex  items-center ">
+      <main className="h-[70vh] sm:h-[90vh] sm:w-full bg-cover flex  items-center ">
         <img src={Banner1} alt="" className="w-full h-full absolute -z-10 bg-cover" />
-        <div className=" w-2/4 h-60 m-12">
+        <div className=" m-4 flex justify-center align-middle flex-col w-full h-full  sm:w-2/4 sm:h-60 sm:m-12">
           <h2 className="text-sky-400 text-3xl capitalize  ">it solutions</h2>
-          <h1 className="text-white text-6xl capitalize font-bold ">
+          <h1 className="text-white text-4xl sm:text-6xl capitalize font-bold ">
             providing the best services & it
             <span className="text-sky-400 px-4">Solutions</span>
           </h1>
@@ -30,7 +30,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-3 grid-rows-2 gap-4">
+        <div className="grid grid-cols-1 grid-flow-row lg:grid-cols-3 lg:grid-rows-2 gap-4 ">
           <div className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
             <img
               src={Servicesimg1}

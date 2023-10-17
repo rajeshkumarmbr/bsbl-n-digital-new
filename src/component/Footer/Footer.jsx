@@ -1,5 +1,6 @@
 import React from "react";
 import {Link, NavLink} from "react-router-dom";
+import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import Logo from "../../img/BSBL-N-Digital-SkyBlue.png";
 
 export default function Footer() {
@@ -14,9 +15,7 @@ export default function Footer() {
             </p>
             <p className="text-sm">
               Copyright © 2023
-              <Link to="#" className="text-sky-400">
-                BSBL N Digital
-              </Link>
+              
               All Right Reserved.
             </p>
           </div>
@@ -58,21 +57,28 @@ export default function Footer() {
               target="_blank"
               className="text-xl hover:text-blue-700"
             >
-              <i className="fab fa-facebook"></i>
+              <FaFacebook/>
             </Link>
             <Link
               to="https://twitter.com/"
               target="_blank"
-              className="text-xl hover:text-sky-400"
+              className="text-xl hover:text-black"
             >
-              <i className="fab fa-x"></i>
+              <FaXTwitter/>
             </Link>
             <Link
               to="https://www.instagram.com/"
               target="_blank"
               className="text-xl hover:text-red-500"
             >
-              <i className="fab fa-instagram"></i>
+              <FaInstagram/>
+            </Link>
+            <Link
+              to="https://www.linkedin.com/"
+              target="_blank"
+              className="text-xl hover:text-blue-500"
+            >             
+            <FaLinkedin/>
             </Link>
           </div>
           <div className="mt-4">
@@ -80,9 +86,10 @@ export default function Footer() {
               Locate us
             </h2>
             <address className="text-sm">
-              Sector 63
+              Kanawani
+              Indirapuram
               <br />
-              Noida
+              Ghaziabad
               <br />
               India
             </address>

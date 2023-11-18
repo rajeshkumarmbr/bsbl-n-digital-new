@@ -34,7 +34,7 @@ export default function Home() {
           <div className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
             <img
               src={Servicesimg1}
-              alt="Card 1"
+              alt="Website Development image"
               className="w-full h-46 object-cover mb-2 rounded-lg"
             />
             <p className="text-lg font-semibold">Website Development</p>
@@ -47,7 +47,7 @@ export default function Home() {
           <div className="bg-white p-4 rounded-lg shadow-md">
             <img
               src={Servicesimg5}
-              alt="Card 2"
+              alt="Application Development image"
               className="w-full h-46 object-cover mb-2 rounded-lg"
             />
             <p className="text-lg font-semibold">Application Development</p>
@@ -62,7 +62,7 @@ export default function Home() {
           <div className="bg-white p-4 rounded-lg shadow-md">
             <img
               src={Servicesimg2}
-              alt="Card 3"
+              alt="Digital Markiting image"
               className="w-full h-46 object-cover mb-2 rounded-lg"
             />
             <p className="text-lg font-semibold">Digital Markiting</p>
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="bg-white p-4 rounded-lg shadow-md">
             <img
               src={Servicesimg4}
-              alt="Card 4"
+              alt="360 Virtual Tour image"
               className="w-full h-42 object-cover mb-2 rounded-lg"
             />
             <p className="text-lg font-semibold">360 Virtual Tour</p>
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="bg-white p-4 rounded-lg shadow-md">
             <img
               src={Servicesimg3}
-              alt="Card 5"
+              alt="Graphic Design image"
               className="w-full h-42 object-cover mb-2 rounded-lg"
             />
             <p className="text-lg font-semibold">Graphic Design</p>
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="bg-white p-4 rounded-lg shadow-md">
             <img
               src={Servicesimg6}
-              alt="Card 6"
+              alt="E-Commerce Development image"
               className="w-full h-42 object-cover mb-2 rounded-lg"
             />
             <p className="text-lg font-semibold">E-Commerce Development</p>

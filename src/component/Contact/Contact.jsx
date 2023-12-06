@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import emailjs from '@emailjs/browser';
+import { Link } from "react-router-dom";
 
 export default function Contact() {
     const [name, setName] = useState('');
@@ -92,7 +93,8 @@ export default function Contact() {
                   <h4 className="text-dark mb-1 text-xl font-bold">
                     Phone Number
                   </h4>
-                  <p className="text-body-color text-base">+91-9766677012</p>
+
+                  <Link to="tel:+91-9766677012" className="text-body-color text-base">+91-9766677012</Link>
                 </div>
               </div>
               <div className="mb-3 flex w-full max-w-[370px]">
